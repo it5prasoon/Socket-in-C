@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
 		printf("\n inet_pton error occured\n");
 		return 1;
 	}
+    
 
 	/* Information like IP address of the remote host and its port is
 	 * bundled up in a structure and a call to function connect() is made
